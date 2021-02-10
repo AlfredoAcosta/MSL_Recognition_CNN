@@ -20,6 +20,11 @@ LSM_reduced.csv que se encuentra en la carpeta "codigo fuente"
 --------------------------------------------------------------
           4) INSTALACIÓN DE MÓDULOS REQUERIDOS
 --------------------------------------------------------------
+El primer paso es tener instalado la versión 3 de Python
+
+   $ sudo apt-get install python3-pip python3-dev
+   $ pip3 install --upgrade pip
+   
 Para la correcta ejecución de los programas se requieren los
 siguientes módulos:
      
@@ -27,6 +32,10 @@ siguientes módulos:
     $ sudo apt-get install python3-matplotlib
     $ sudo apt-get install python3-numpy
     $ sudo apt-get install python3-sklearn
+    
+Así como 'keras' con el cual se desarrollarán los modelos:
+
+    $ sudo pip3 install keras
 --------------------------------------------------------------
           4) EJECUCIÓN DE LOS PROGRAMAS
 --------------------------------------------------------------     
