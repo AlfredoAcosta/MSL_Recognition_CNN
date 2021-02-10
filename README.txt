@@ -26,26 +26,31 @@ El primer paso es tener instalado la versión 3 de Python
    $ pip3 install --upgrade pip
    
 Para la correcta ejecución de los programas se requieren los
-siguientes módulos:
+siguientes módulos: jupyter-notebook, matplotlib, numpy
+sklearn, keras, tensorflow.
+
+Los cuales pueden instalarse de diversas formas, obteniendo
+directamente los paquetes como a continuación:
      
     $ sudo apt install python3 jupyter-notebook
     $ sudo apt-get install python3-matplotlib
     $ sudo apt-get install python3-numpy
     $ sudo apt-get install python3-sklearn
-    
-Así como 'keras' con el cual se desarrollarán los modelos:
-
     $ sudo pip3 install keras
+
+O a través del entorno Anaconda.
+    
 --------------------------------------------------------------
           4) EJECUCIÓN DE LOS PROGRAMAS
 --------------------------------------------------------------     
-Desde la consola escribir:
+Abrir los cuadernos de jupyter o desde la consola escribir:
 
     $ jupyter-notebook 
     
 Una vez dentro de este entorno, ubicar el cuaderno de
 jupyter nombrado "MSL_Recognition" ubicado dentro de la carpeta 
 "codigo ejecutable".
+
     
     
     
